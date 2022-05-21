@@ -3,7 +3,6 @@ from .alexnet import AlexNet
 from .conformer import Conformer
 from .convmixer import ConvMixer
 from .convnext import ConvNeXt
-from .cspnet import CSPDarkNet, CSPNet, CSPResNet, CSPResNeXt
 from .deit import DistilledVisionTransformer
 from .densenet import DenseNet
 from .efficientnet import EfficientNet
@@ -33,7 +32,9 @@ from .twins import PCPVT, SVT
 from .van import VAN
 from .vgg import VGG
 from .vision_transformer import VisionTransformer
-
+from .cspnet_modify import CSPNet, CSPResNet, CSPResNeXt
+# from .cspnet import CSPDarkNet
+from .cspnet_modify import CSPDarkNet
 __all__ = [
     'LeNet5', 'AlexNet', 'VGG', 'RegNet', 'ResNet', 'ResNeXt', 'ResNetV1d',
     'ResNeSt', 'ResNet_CIFAR', 'SEResNet', 'SEResNeXt', 'ShuffleNetV1',
